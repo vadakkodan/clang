@@ -4,7 +4,7 @@ int main(){
 
 	int a,b,c;
 	int choice;
-	float d;
+//	float d;
 	printf("The Choices");
 	printf("\n1. Addition");
 	printf("\n2. Subtraction");
@@ -35,8 +35,8 @@ int main(){
 		printf("Choice was Multiplication,numbers:%d, %d, Result=%d",a,b,c);
 		break;
         case 4:
-		c = a/b;
-		printf("Choice was division,numbers:%d, %d, Result=%2f",a,b,d);
+		c = a / b;
+		printf("Choice was division,numbers:%d, %d, Result=%d",a,b,c);
 		break;
        case 5:
 		c = a%b;
