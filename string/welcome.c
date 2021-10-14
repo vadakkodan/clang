@@ -24,3 +24,9 @@ int main() {
 	//printf("with null:\t %s\n",name1);
 	return 0;
 }
+Jeevan Raksha
+Money+ Insurance(19L)
+	18 years (15 policy premium)
+	premium: 120000/year
+
+

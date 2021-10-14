@@ -14,6 +14,7 @@ int main(){
 		printf("Enter the Element %d:\t",j);
 		scanf ("%d", &a[i]);
 	}
+	
 	printf ("--------------");
 	printf ("\nArray is :");
 	for (i=0;i<n;i++) {
@@ -26,9 +27,9 @@ int main(){
 	//printf ("What value needed to be deleted: ?\t");
 	//scanf ("%d",&o);
 
-	for (i=m;i<=n;i++) {
+	for (i=m;i<n;i++) {
 		a[i] = a[i+1];
-		//printf("%d " "",a[i]);
+		printf("%d " "",a[i]);
 	}
 	//a[m] = o;
         printf ("New array is :");
