@@ -12,6 +12,10 @@ int main() {
 	ch = &c;
 	fp = &f;
 	printf ("address of integer, char,float: %p\t%p\t%p\n", ap,ch,fp);
+	ap ++;
+	ch ++;
+	fp ++;
+	printf ("address of integer, char,float after the increment op: %p\t%p\t%p\n", ap,ch,fp);
 	return 0;
 }
 
