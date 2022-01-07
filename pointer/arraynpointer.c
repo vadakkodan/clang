@@ -9,10 +9,11 @@ int main() {
 //	ptr+1 = a[1];
 //	ptr+2 = a[2];
 //
-	for (i=0;i<3;i++) {
-		printf ("%d %p\n", *p,p);
-	p++;	
-	}
+//	for (i=0;i<3;i++) {
+//		printf ("%d %p\n", *p,p);
+//	p++;	
+//	}
+	printf ("address: %p\t Element: %d\n", p+1, *(p+1)); //want to print the second element of the array
 	return 0;
 }
 
