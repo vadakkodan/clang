@@ -1,3 +1,5 @@
+//Write a program to read a name through the keyboard. Determine the length of the string and find its equivalent ASCII codes.
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -12,21 +14,10 @@ int main() {
 		i = strlen(name);
 	//}
 	printf("Hi %s, Welcome to advanced C Programming\n",name);
-	printf("%d\n",i);
-	for (j=0;j<10;j++) {
-		printf("%d\n",name[j]);
+	printf("String Length:\t%d\n",i);
+	for (j=0;j<=i;j++) {
+		printf("ASCII value of the letters in your name is:%d\n",name[j]);
 	}
-
-	//printf("%d\n",name);
-	//char name [7] = "Pradeep";
-	//char name1 [8] = "Pradeep";
-	//printf("without null:\t %s\n",name);
-	//printf("with null:\t %s\n",name1);
 	return 0;
 }
-Jeevan Raksha
-Money+ Insurance(19L)
-	18 years (15 policy premium)
-	premium: 120000/year
-
 

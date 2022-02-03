@@ -94,7 +94,7 @@ return((char)pressed);
 
 int getGameSpeed()
 {
-int speed = 1;
+int speed = 5;
 clrscr();
 
 while(speed < 1 || speed > 9){

@@ -11,7 +11,6 @@ int main() {
 		printf ("Value is %d and address is %p\n", *p,p);
 		p++ ;
 	}
-	printf("\n");
 	return 0;
 }
 
