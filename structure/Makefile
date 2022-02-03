@@ -3,3 +3,6 @@ result: structure.c
 
 structINstruct: structINstruct.c
 	$(CC) structINstruct.c -o structinstruct	-Wall -Wextra -pedantic -std=c99
+
+arr_of_struct: arr_of_structures.c
+	$(CC) arr_of_structures.c -o arr_of_struct 	-Wall -Wextra -pedantic -std=c99
