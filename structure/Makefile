@@ -9,3 +9,6 @@ arr_of_struct: arr_of_structures.c
 
 pointer: pointer_to_struct.c 
 	$(CC) pointer_to_struct.c -o pointer 	-Wall -Wextra -pedantic -std=c99
+
+function: function.c 
+	$(CC) function.c -o s_function 	-Wall -Wextra -pedantic -std=c99
